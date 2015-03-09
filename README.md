@@ -14,3 +14,5 @@ Sub-optimal trajectory planning algorithm to exploit key features of the optimal
 As a result, convergence is quickly achieved using this adaptive step. Steepest descent with a constant "large" step size leads to very slow and subpar convergence.
 Smaller step sizes are not practical as the optimization approaches the minimum, convergence expoentially gets slower.
 * The cost function has been proven previously to be convex and therefore has a global minumum.
+
+** Refer to the optimal control simulations for details on the parameters and limitations of those solutions: (https://github.com/khatiba/gpops-optimal-trajectories)
